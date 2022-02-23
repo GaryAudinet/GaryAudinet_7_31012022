@@ -1,0 +1,40 @@
+// Variables générales
+
+$color-1: #172A48;
+$color-2: #3F5579;
+$color-3: #C9C9C9;
+$color-4: #BA4D55;
+$color-5: #b2cde2;
+
+$shadow: 4px 4px 4px 2px $color-2;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+  list-style-type: none;
+  outline: none;
+}
+
+h1 {
+  color: $color-2;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height:100vh;
+}
+
+.page_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  background-color: $color-3;
+  flex-grow:1;
+}

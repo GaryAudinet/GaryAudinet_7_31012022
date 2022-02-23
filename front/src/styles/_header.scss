@@ -1,0 +1,16 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $color-1;
+    width: 100%;
+    overflow:hidden;
+    img {
+      width: 500px;
+      padding: 15px;
+      @media all and(max-width: 767px) {
+        width: 350px;
+      }
+    }
+  }
+  
