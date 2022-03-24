@@ -1,4 +1,4 @@
-# GaryAudinet_7_31012022 - Projet: Créez un réseau social d’entreprise
+# Projet: Créez un réseau social d’entreprise
 
 ## mySQL
 1. Depuis mySQL crée un nouveau schéma. 
